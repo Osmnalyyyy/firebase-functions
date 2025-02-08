@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "913968944599",
+    "project_id": "fir-functions-cf0d2",
+    "storage_bucket": "fir-functions-cf0d2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913968944599:android:80df9be44a366be5d8a792",
+        "android_client_info": {
+          "package_name": "com.osman.firebasefunctions"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxNa5WC_6IpjNjtM9qYNAC8XRecPunwQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
