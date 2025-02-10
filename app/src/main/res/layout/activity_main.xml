@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="girisYap"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/miktar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="73dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="miktar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/fiyat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="fiyat"
+        app:layout_constraintStart_toStartOf="@+id/miktar"
+        app:layout_constraintTop_toBottomOf="@+id/miktar" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="68dp"
+        android:onClick="yukle"
+        android:text="yükle"
+        app:layout_constraintEnd_toEndOf="@id/fiyat"
+        app:layout_constraintTop_toBottomOf="@id/miktar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

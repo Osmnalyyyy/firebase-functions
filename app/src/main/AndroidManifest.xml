@@ -13,6 +13,11 @@
         android:theme="@style/Theme.FirebaseFunctions"
         tools:targetApi="31">
         <activity
+            android:name=".activity_main.xml"
+            android:exported="false"
+            android:label="@string/title_activity_main.xml"
+            android:theme="@style/Theme.FirebaseFunctions" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
